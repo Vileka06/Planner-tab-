@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Streamlit secrets (never commit tokens)
+.streamlit/secrets.toml
+
+# Local database (created at runtime)
+*.db
+
+# OS / editor
+.DS_Store
+.vscode/
